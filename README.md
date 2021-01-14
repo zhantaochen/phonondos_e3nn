@@ -17,7 +17,7 @@ This is the repository to accompany the paper. [https://arxiv.org/pdf/2009.05163
 - Evaluates phonon DoS and specific heat capacities for around 4,400 crystals on Materials Project.
 
 `query_mpcifs.ipynb`
-- Download `*.cif` files from the Materials Project.
+- Download `*.cif` files from the Materials Project, with material IDs listed in `data/mp_data.csv`.
 
 ## Citing
 
