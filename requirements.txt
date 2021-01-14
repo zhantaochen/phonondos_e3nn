@@ -1,0 +1,10 @@
+e3nn @ file:///home/zhantao/Documents/phonon_dos/e3nn/e3nn
+numpy==1.18.5
+pymatgen==2020.6.8
+torch==1.5.1
+torch-cluster==1.5.5
+torch-geometric==1.5.0
+torch-scatter==2.0.5
+torch-sparse==0.6.6
+torch-spline-conv==1.2.0
+torchvision==0.6.0a0+35d732a
