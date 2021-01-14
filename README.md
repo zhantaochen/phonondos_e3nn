@@ -16,6 +16,9 @@ This is the repository to accompany the paper. [https://arxiv.org/pdf/2009.05163
 `phdos_eval_MPdata.ipynb` and `class_evaluate_MPdata.py`
 - Evaluates phonon DoS and specific heat capacities for around 4,400 crystals on Materials Project.
 
+`query_mpcifs.ipynb`
+- Download `*.cif` files from the Materials Project.
+
 ## Citing
 
 ```
