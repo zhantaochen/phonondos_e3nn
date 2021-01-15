@@ -1,4 +1,4 @@
-e3nn @ file:///home/zhantao/Documents/phonon_dos/e3nn/e3nn
+e3nn==0.0.0
 numpy==1.18.5
 pymatgen==2020.6.8
 torch==1.5.1
