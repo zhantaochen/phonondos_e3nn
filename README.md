@@ -8,7 +8,7 @@ This is the repository to accompany the paper. [https://arxiv.org/pdf/2009.05163
 - `torch-geometric`
 - `e3nn=0.0.0`, installed from (https://github.com/e3nn/e3nn/releases/tag/0.0.0) 
 
-Please notice the `e3nn` used for this work is not the latest version `0.1.1`, more details about versions of its dependencies can be found in `requirements.txt`. We will prepare another notebook for `e3nn=0.1.1` in near future.
+Please notice the `e3nn` used for this work is not the latest version `0.1.1`, more details about versions of its dependencies used for this work can be found in `requirements.txt`. We will prepare another notebook for `e3nn=0.1.1` in near future.
 
 ## Notebooks and python files
 
