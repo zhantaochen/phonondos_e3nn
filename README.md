@@ -6,7 +6,9 @@ This is the repository to accompany the paper. [https://arxiv.org/pdf/2009.05163
 - `torch `
 - `pymatgen`
 - `torch-geometric`
-- `e3nn`
+- `e3nn=0.0.0`, installed from (https://github.com/e3nn/e3nn/releases/tag/0.0.0) 
+
+Please notice the package version used for this work is not the latest one. We will prepare another notebook for `e3nn=0.1.1` in near future.
 
 ## Notebooks and python files
 
