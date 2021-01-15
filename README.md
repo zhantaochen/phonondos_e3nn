@@ -16,6 +16,15 @@ This is the repository to accompany the paper. [https://arxiv.org/pdf/2009.05163
 `phdos_eval_MPdata.ipynb` and `class_evaluate_MPdata.py`
 - Evaluates phonon DoS and specific heat capacities for around 4,400 crystals on Materials Project.
 
+`models/200803-1018_len51max1000_fwin101ord3_trial_run_full_data.torch`
+- The trained model presented in the paper.
+
+`models/cif_unique_files.pkl`
+- Contains Materials Project IDs that used for searching high heat capacity materials, the materials presented in traning/validation/testing datasets are excluded.
+
+`models/phdos_e3nn_len51max1000_fwin101ord3.zip`
+- Zipped file that contains interpolated phonon DoS and other necessary information for training (cif files, etc.). The included information is curated from the dataset presented in the work: [Petretto, Guido, et al. "High-throughput density-functional perturbation theory phonons for inorganic materials." Scientific data 5 (2018): 180065.](https://www.nature.com/articles/sdata201865)
+
 ## Citing
 
 ```
