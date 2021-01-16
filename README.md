@@ -10,7 +10,7 @@ This is the repository to accompany the paper. [https://arxiv.org/pdf/2009.05163
 
 Please notice the `e3nn` used for this work is not the latest version `0.1.1`, but a specific commit of the version `0.0.0`:
 `4653db57d0af05e1834e65b6da73fa26927824bc`
-If your `torch-geometric`  version is equal or higher than `1.6.0`, then additional fixes from the next commit are needed, please see: (https://github.com/e3nn/e3nn/commits/master?after=447ccb253061a50b29f3a05c6eeffba34cca2c14+174&branch=master)
+If your `torch-geometric`  version is equal or higher than `1.6.0`, then additional fixes from the next commit are needed, please [check commits history here](https://github.com/e3nn/e3nn/commits/master?after=447ccb253061a50b29f3a05c6eeffba34cca2c14+174&branch=master)
 
 More details about versions of its dependencies used for this work can be found in `requirements.txt`. We are planning to prepare another notebook for the official release `e3nn=0.1.1` in near future.
 
