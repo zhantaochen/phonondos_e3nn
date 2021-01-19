@@ -1,0 +1,10 @@
+numpy==1.18.5
+pymatgen==2020.6.8
+torch==1.5.1
+torchvision==0.6.1
+torch-geometric==1.5.0
+git+git://github.com/e3nn/e3nn.git@4653db57d0af05e1834e65b6da73fa26927824bc
+torch-cluster==1.5.5
+torch-scatter==2.0.5
+torch-sparse==0.6.6
+torch-spline-conv==1.2.0
