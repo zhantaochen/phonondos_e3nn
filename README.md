@@ -1,5 +1,5 @@
 # Code Repository "Direct prediction of phonon density of states with Euclidean neural network"
-This is the repository to accompany the paper. [https://arxiv.org/pdf/2009.05163.pdf](https://arxiv.org/pdf/2009.05163.pdf)
+This is the repository to accompany the paper. [https://arxiv.org/pdf/2009.05163.pdf](https://arxiv.org/pdf/2009.05163.pdf). Please direct any questions to (zhantao@mit.edu).
 
 ## Requirements
 
