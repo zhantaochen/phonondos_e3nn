@@ -31,7 +31,7 @@ Whenver you want to exit this environment (not right now because we want to inst
 
 ### Installing dependencies
 
-First, let's install torch and torchvision.
+First, let's install torch and torchvision.  
 ```pip install torch==1.5.1 torchvision==0.6.1```
 
 Next we will install `torch-geometric` which is a versatile library for doing deep learning on graphs. Please first check the following **before** installing `torch-geometric`.
