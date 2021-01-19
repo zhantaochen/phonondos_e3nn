@@ -14,15 +14,15 @@ Please see below for how to install these packages.
 
 ### Clone this repository
 
-To make a copy of this repository on your computer run the following at the command line.
+To make a copy of this repository on your computer run the following at the command line.  
 ```git clone https://github.com/zhantaochen/phonondos_e3nn.git```
 
-The change into the directory
+The change into the directory.  
 ```cd phonodos_e3nn```
 
 ### Setting up a virtual environment
 
-Because we use specific versions of these packages, you may want to make and activate a new virtual environment. In the command line run,
+Because we use specific versions of these packages, you may want to make and activate a new virtual environment. In the command line run,  
 ```
 virtualenv --python=`which python3` venv
 source venv/bin/activate
@@ -36,20 +36,20 @@ First, let's install torch and torchvision.
 
 Next we will install `torch-geometric` which is a versatile library for doing deep learning on graphs. Please first check the following **before** installing `torch-geometric`.
 
-In a python, check the CUDA version `torch` is using...
+In a python, check the CUDA version `torch` is using.  
 ```
 import torch
 print(torch.version.cuda)
 ```
 
-At the command line, check your NVIDIA compiler version...
+At the command line, check your NVIDIA compiler version.  
 ```nvcc --version```
 
 If you do not have the `nvcc` command, this likely means you do not have CUDA installed and / or do not have a GPU. If this is the case, you will set `CUDA=cpu` in the be
 
 These versions **must** match before proceeding. If they match, at the command line set the variable `CUDA` to be `cu92`, `cu101`, or `cu102` to match your CUDA version or `cpu` to not install GPU dependences. For example, `CUDA=cu102` will set the CUDA variable to indicate you want to install a version for CUDA 10.2. `CUDA=cpu` will install torch-geometric without GPU dependencies. You can check that the variable `CUDA` is set by running `echo CUDA`.
 
-Then run the following...
+Then run the following.  
 ```
 pip install --no-index torch-scatter -f https://pytorch-geometric.com/whl/torch-1.5.0+${CUDA}.html
 pip install --no-index torch-sparse -f https://pytorch-geometric.com/whl/torch-1.5.0+${CUDA}.html
@@ -58,14 +58,14 @@ pip install --no-index torch-spline-conv -f https://pytorch-geometric.com/whl/to
 pip install torch-geometric==1.5.0
 ```
 
-Then install `e3nn` at commit [`4653db57d0af05e1834e65b6da73fa26927824bc`](https://github.com/e3nn/e3nn/tree/4653db57d0af05e1834e65b6da73fa26927824bc)...
+Then install `e3nn` at commit [`4653db57d0af05e1834e65b6da73fa26927824bc`](https://github.com/e3nn/e3nn/tree/4653db57d0af05e1834e65b6da73fa26927824bc).  
 ```pip install git+git://github.com/e3nn/e3nn.git@4653db57d0af05e1834e65b6da73fa26927824bc```
 
-and finally `pymatgen` which we use to interact with the Materials Project API and manipulate crystal structure data. Installing `e3nn` will likely have already installed this package, but you can also install it with.
+and finally `pymatgen` which we use to interact with the Materials Project API and manipulate crystal structure data. Installing `e3nn` will likely have already installed this package, but you can also install it with.  
 ```pip install pymatgen==2020.6.8```
 
 ### Using a virtual environment with Jupyter
-In order to use this virtual environment in Jupyter you will need to add it to with `ipykernel`.
+In order to use this virtual environment in Jupyter you will need to add it to with `ipykernel`.  
 ```
 pip install ipykernel
 python -m ipykernel install --user --name=phonondos_e3nn
@@ -76,12 +76,12 @@ Now, if you start a `jupyter notebook` outside this virtual enviroment (like in 
 ### Download data from the Materials Project
 This repository uses data from the Materials Project. To access the Materials Project dataset via pymatgen, you will need an API key which can obtain via https://www.materialsproject.org/dashboard. See https://pymatgen.org/pymatgen.ext.matproj.html for more details.
 
-One you have your Materials Project API key, you can add it to your pymatgen config file (~/.pmgrc.yaml) with the following command
+One you have your Materials Project API key, you can add it to your pymatgen config file (~/.pmgrc.yaml) with the following command.  
 ```pmg config --add PMG_MAPI_KEY YOUR_API_KEY```
 
-To download the data needed, run the following command
-```python download_mpcifs.py```
-or to set the API key manually
+To download the data needed, run the following command  
+```python download_mpcifs.py```  
+or to set the API key manually.  
 ```python download_mpcifs.py YOUR_API_KEY```
 
 ### Other details
