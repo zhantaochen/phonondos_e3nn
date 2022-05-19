@@ -1,5 +1,7 @@
 # Code Repository for "Direct prediction of phonon density of states with Euclidean neural network"
-This is the repository to accompany the paper. [https://arxiv.org/pdf/2009.05163.pdf](https://arxiv.org/pdf/2009.05163.pdf). Please direct any questions to Zhantao (zhantao@mit.edu).
+This is the repository to accompany the paper: [https://onlinelibrary.wiley.com/doi/10.1002/advs.202004214](https://onlinelibrary.wiley.com/doi/10.1002/advs.202004214) (or on arXiv [https://arxiv.org/pdf/2009.05163.pdf](https://arxiv.org/pdf/2009.05163.pdf)). Please direct any questions to Zhantao (zhantao@mit.edu).
+
+We later rewrote the code with latest `e3nn` in [https://github.com/ninarina12/phononDoS_tutorial](https://github.com/ninarina12/phononDoS_tutorial), which was prepared for the [E3NN tutorial in MRS 2021 Fall Meeting](http://e3nn.org/e3nn-tutorial-mrs-fall-2021/#tut6).
 
 ## Dependency installation instructions
 
